@@ -15,6 +15,10 @@ Click on the following link to access MATLAB Online. You will need to log in usi
 
 After accessing MATLAB Online and opening the MATLAB Online editor, clone the tutorial project using the From Git option as in the image below.
 
-Use the following cloning link:
-
 ![From Git](images/fromgit.png "From Git")
+
+In the dialog box that appears, paste the following: [https://github.com/abhijitb11/AI-Workshop-for-Space-Applications.git](https://github.com/abhijitb11/AI-Workshop-for-Space-Applications.git)
+
+See the screenshot below:
+
+![From Git 2](images/fromgit2.png "From Git 2")
