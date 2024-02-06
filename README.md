@@ -7,9 +7,9 @@
 
 Click on the following link to access MATLAB Online. You will need to log in using your MathWorks account. If you do not already have an account, you can create a new one for free.
 
-**Link:** [https://www.mathworks.com/licensecenter/classroom/4308902/](https://www.mathworks.com/licensecenter/classroom/4308902/)
+**Link:** <a href="https://www.mathworks.com/licensecenter/classroom/4308902/" target="_blank">https://www.mathworks.com/licensecenter/classroom/4308902/</a>
 
-![MATLAB Online](Images/image1.png "MATLAB Online")
+![MATLAB Online](images/image1.png "MATLAB Online")
 
 ### **STEP 2:** Clone Tutorial Files into MATLAB Online
 
