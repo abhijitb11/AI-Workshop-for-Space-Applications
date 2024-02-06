@@ -11,7 +11,7 @@ Click on the following link to access MATLAB Online. You will need to log in usi
 
 ![MATLAB Online](Images/image1.png "MATLAB Online")
 
-### **STEP 2** Clone Tutorial Files into MATLAB Online
+### **STEP 2:** Clone Tutorial Files into MATLAB Online
 
 After accessing MATLAB Online and opening the MATLAB Online editor, clone the tutorial project using the From Git option as in the image below.
 
