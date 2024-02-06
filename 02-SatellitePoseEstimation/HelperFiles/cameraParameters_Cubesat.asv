@@ -1,0 +1,26 @@
+function  [cameraParamMatlab,intrinsicsOpenCV] = cameraParameters_Cubesat(cameraParameters)
+% This function uses the provided camera properties to generate the camera parameters in MATLAB and OpenCV format
+ 
+fx = cameraParameters.fx;  % focal length (m)
+fy = cameraParameters.fy;  % focal length (m)
+nu = cameraParameters.Nu;  % number of horizontal (pixels)
+nv = cameraParameters.Nv;  % number of vertical (pixels)
+ppx = cameraParameters.ppx;  % horizontal pixel pitch (m/pixels)
+ppy = cameraParameters.ppy;  % vertical pixel pitch (m/pixels)
+fpx = fx/ppx;  % horizontal focal length (pixels)
+fpy = fy/ppy;  % vertical focal length (pixels)
+intrinsicsOpenCV = cameraParameters.cameraMatrix;
+distortionCoeff = cameraParameters.distCoeffs;
+ 
+% fx = 0.0176;  % focal length (m)
+% fy = 0.0176;  % focal length (m)
+% nu = 1200;  % number of horizontal (pixels)
+% nv = 1920;  % number of vertical (pixels)
+% ppx = 5.86e-6;  % horizontal pixel pitch (m/pixels)
+% ppy = ppx;  % vertical pixel pitch (m/pixels)
+% fpx = fx/ppx;  % horizontal focal length (pixels)
+% fpy = fy/ppy;  % vertical focal length (pixels)
+%intrinsicsOpenCV = [fpx 0 nv/2; 0 fpy nu/2; 0 0 1];
+% distortionCoeff = [0 0 0 0 0];
+imageSize = [nu nv];
+cameraParamMatlab = cameraIntrinsicsFromOpenCV (intrinsicsOpenCV,distortionCoeff,imageSize);
